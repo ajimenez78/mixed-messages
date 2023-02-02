@@ -1,0 +1,23 @@
+{
+  "name": "mixed-messages",
+  "version": "1.0.0",
+  "description": "Returns a random quote, from different sources",
+  "main": "mixed-messages.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajimenez78/mixed-messages.git"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Arturo Jiménez de los galanes Reguillos",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajimenez78/mixed-messages/issues"
+  },
+  "homepage": "https://github.com/ajimenez78/mixed-messages#readme"
+}
