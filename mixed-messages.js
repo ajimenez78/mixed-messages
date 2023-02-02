@@ -7,7 +7,10 @@ const quoteSources = [
     buildQuoteSource('CINIC')
 ];
 
-console.log('Hola, ahí va una cita:');
+let fullArray = [];
 quoteSources.forEach(source => {
-    console.log(source.quotes);
+    fullArray = fullArray.concat(source.quotes);
 });
+
+const randomIndex = Math.floor(Math.random() * fullArray.length);
+console.log(fullArray[randomIndex]);
